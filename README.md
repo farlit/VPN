@@ -16,23 +16,21 @@ This repository is the official implementation of **[VPN: Visual Prompt Navigati
 ```setup
 conda activate vlnduet
 cd map_nav_src
-bash scripts/run_r2r.sh # (run_reverie.sh, run_soon.sh)
+bash scripts/run_r2r.sh 
 ```
 
 ## Requirements for VPN-CE
 
-1. Install Matterport3D simulator for `R2R-VP`: follow instructions [here](https://github.com/peteanderson80/Matterport3DSimulator).
-```
-export PYTHONPATH=Matterport3DSimulator/build:$PYTHONPATH
-```
+1. Install Habitat simulator and Python Environment for `R2R-CE-VP`: follow instructions [here](https://github.com/MarSaKi/ETPNav).
 
-2. Install requirements:
+2. Download annotations, preprocessed features, trained models and preprocessing code from [Baidu Netdisk](https://pan.baidu.com/s/1Y7ACK9By8DcEY5y4F0TyOQ?pwd=qg3m) (You should the folder "data" in "VPN/VPN_CE/").
+
+3. Training & Evaluation for R2R-CE-VP:
 ```setup
-conda create --name GridMM python=3.8.0
-conda activate GridMM
-pip install -r requirements.txt
+conda activate vlnce
+cd VPN_CE
+CUDA_VISIBLE_DEVICES=0,1 bash run_r2r/main.bash train 2333  # training
+CUDA_VISIBLE_DEVICES=0,1 bash run_r2r/main.bash eval  2333  # evaluation
 ```
 
-3. Download annotations, preprocessed features, and trained models from [Baidu Netdisk](https://pan.baidu.com/s/1jRshMRNAhIx4VtCT0Lw1DA?pwd=beya).
 
-4. Install Habitat simulator for `R2R-CE`: follow instructions [here](https://github.com/YicongHong/Discrete-Continuous-VLN) and [here](https://github.com/jacobkrantz/VLN-CE).
