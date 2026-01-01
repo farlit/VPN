@@ -8,7 +8,7 @@ This repository is the official implementation of **[VPN: Visual Prompt Navigati
 
 ## Requirements
 
-1. Install Matterport3D simulator for `R2R`: follow instructions [here](https://github.com/peteanderson80/Matterport3DSimulator).
+1. Install Matterport3D simulator for `R2R-VP`: follow instructions [here](https://github.com/peteanderson80/Matterport3DSimulator).
 ```
 export PYTHONPATH=Matterport3DSimulator/build:$PYTHONPATH
 ```
