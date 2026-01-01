@@ -10,9 +10,9 @@ This repository is the official implementation of **[VPN: Visual Prompt Navigati
 
 1. Install Matterport3D simulator and Python Environment for `R2R-VP`: follow instructions [here](https://github.com/cshizhe/VLN-DUET).
 
-3. Download annotations, preprocessed features, and trained models from [Baidu Netdisk](https://pan.baidu.com/s/1jRshMRNAhIx4VtCT0Lw1DA?pwd=beya).
+2. Download annotations, preprocessed features, trained models and preprocessing code from [Baidu Netdisk](https://pan.baidu.com/s/11hLnDKq3uvg_ni5fWvY5MA?pwd=rznf).
 
-4. Install Habitat simulator for `R2R-CE`: follow instructions [here](https://github.com/YicongHong/Discrete-Continuous-VLN) and [here](https://github.com/jacobkrantz/VLN-CE).
+
 
 ## Requirements for VPN-CE
 
