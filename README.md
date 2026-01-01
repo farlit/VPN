@@ -10,7 +10,7 @@ This repository is the official implementation of **[VPN: Visual Prompt Navigati
 
 1. Install Matterport3D simulator and Python Environment for `R2R-VP`: follow instructions [here](https://github.com/cshizhe/VLN-DUET).
 
-2. Download annotations, preprocessed features, trained models and preprocessing code from [Baidu Netdisk](https://pan.baidu.com/s/11hLnDKq3uvg_ni5fWvY5MA?pwd=rznf).
+2. Download annotations, preprocessed features, trained models and preprocessing code from [Baidu Netdisk](https://pan.baidu.com/s/11hLnDKq3uvg_ni5fWvY5MA?pwd=rznf).\n
 You should the folder "datasets" in "VPN/".
 
 
