@@ -12,6 +12,12 @@ This repository is the official implementation of **[VPN: Visual Prompt Navigati
 
 2. Download annotations, preprocessed features, trained models and preprocessing code from [Baidu Netdisk](https://pan.baidu.com/s/11hLnDKq3uvg_ni5fWvY5MA?pwd=rznf) (You should the folder "datasets" in "VPN/").
 
+3. Training & Evaluation for R2R-VP:
+```setup
+conda activate vlnduet
+cd map_nav_src
+bash scripts/run_r2r.sh # (run_reverie.sh, run_soon.sh)
+```
 
 ## Requirements for VPN-CE
 
