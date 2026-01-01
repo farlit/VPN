@@ -38,6 +38,10 @@ If you find some useful for your work, please consider citing our paper:
 ```bibtex
 Feng S, Wang Z, Li Y, et al. VPN: Visual Prompt Navigation[J]. arXiv preprint arXiv:2508.01766, 2025.
   ```
+Besides, if you 
+
+## Contact
+Feel free to contact Shuo Feng via email fengshuo@nuaa.edu.cn for more support.
 
 ## Acknowledgments
 Our code is based on [VLN-DUET](https://github.com/cshizhe/VLN-DUET), [ETPNav](https://github.com/MarSaKi/ETPNav) and [ScaleVLN](https://github.com/wz0919/ScaleVLN). Thanks for their great works!
