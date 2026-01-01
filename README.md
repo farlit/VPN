@@ -40,5 +40,5 @@ Feng S, Wang Z, Li Y, et al. VPN: Visual Prompt Navigation[J]. arXiv preprint ar
   ```
 
 ## Acknowledgments
-Our code is based on [VLN-DUET](https://github.com/cshizhe/VLN-DUET) and [CWP](https://github.com/YicongHong/Discrete-Continuous-VLN). Thanks for their great works!
+Our code is based on [VLN-DUET](https://github.com/cshizhe/VLN-DUET)、 [ETPNav](https://github.com/MarSaKi/ETPNav) and [ScaleVLN](https://github.com/wz0919/ScaleVLN). Thanks for their great works!
 
