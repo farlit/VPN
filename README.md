@@ -36,7 +36,7 @@ CUDA_VISIBLE_DEVICES=0,1 bash run_r2r/main.bash eval  2333  # evaluation
 ## Citation
 If you find some useful for your work, please consider citing our paper:
 ```bibtex
-Feng S, Wang Z, Li Y, et al. VPN: Visual Prompt Navigation[J]. arXiv preprint arXiv:2508.01766, 2025.
+Feng S, Wang Z, Li Y, et al. VPN: Visual Prompt Navigation[C]//Proceedings of the AAAI Conference on Artificial Intelligence. 2026, 40(22): 18253-18261.
   ```
 
 ## Contact
