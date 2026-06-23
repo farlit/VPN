@@ -10,7 +10,7 @@ This repository is the official implementation of **[VPN: Visual Prompt Navigati
 
 1. Install Matterport3D simulator and Python Environment for `R2R-VP`: follow instructions [here](https://github.com/cshizhe/VLN-DUET).
 
-2. Download annotations, preprocessed features, trained models and preprocessing code from [Baidu Netdisk](https://pan.baidu.com/s/11hLnDKq3uvg_ni5fWvY5MA?pwd=rznf) (You should the folder "datasets" in "VPN/").
+2. Download annotations, preprocessed features, trained models and preprocessing code from [Baidu Netdisk](https://pan.baidu.com/s/1nKp7HJUrchNQjQ9ZEERTRw?pwd=8sb2) (You should the folder "datasets" in "VPN/").
 
 3. Training & Evaluation for R2R-VP:
 ```setup
@@ -23,7 +23,7 @@ bash scripts/run_r2r.sh
 
 1. Install Habitat simulator and Python Environment for `R2R-CE-VP`: follow instructions [here](https://github.com/MarSaKi/ETPNav).
 
-2. Download annotations, preprocessed features, trained models and preprocessing code from [Baidu Netdisk](https://pan.baidu.com/s/1Y7ACK9By8DcEY5y4F0TyOQ?pwd=qg3m) (You should the folder "data" in "VPN/VPN_CE/").
+2. Download annotations, preprocessed features, trained models and preprocessing code from [Baidu Netdisk](https://pan.baidu.com/s/1tfEu3iD7IYpW339SYpIN4g?pwd=tg7x) (You should the folder "data" in "VPN/VPN_CE/").
 
 3. Training & Evaluation for R2R-CE-VP:
 ```setup
